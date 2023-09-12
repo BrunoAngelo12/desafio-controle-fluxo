@@ -6,12 +6,15 @@ import exceptions.ParametrosInvalidosException;
 
 public class Contador {
     public static void main(String[] args) throws Exception {
+        System.out.println("              Flow control - DIO challenge");
+        System.out.println();
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter the first parameter: ");
         int firstParameter = sc.nextInt();
         System.out.print("Enter the second parameter: ");
         int secondParameter = sc.nextInt();
+        System.out.println();
         
         try{
             count(firstParameter, secondParameter);
@@ -27,8 +30,12 @@ public class Contador {
             throw new ParametrosInvalidosException();
         }else{
             int score = secondParameter - firstParameter;
-            for(int i = 0; i < score; i++){
-                System.out.print("Printing number " + (i+1) + ", ");
+            for(int i = 1; i <= score; i++){
+                if(i == score){
+                    System.out.println("Printing number " + (i) + ".");
+                }else{
+                    System.out.print("Printing number " + (i) + ", ");
+                }
             }
         }
     }
