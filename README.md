@@ -17,6 +17,6 @@ O sistema deverá receber dois parâmetros via terminal pelo usuário que repres
 
 [![GitHub](https://img.shields.io/badge/github-111?style=for-the-badge&logo=github)](https://github.com/BrunoAngelo12)
 
-[![gmail](https://img.shields.io/badge/bruno.trabalhos@outlook.com-111?style=for-the-badge&logo=gmail)](https://github.com/BrunoAngelo12)
+[![gmail](https://img.shields.io/badge/bruno.trabalhos@outlook.com-111?style=for-the-badge&logo=microsoft-outlook)](https://github.com/BrunoAngelo12)
 
 
